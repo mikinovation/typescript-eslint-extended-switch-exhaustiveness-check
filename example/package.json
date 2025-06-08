@@ -4,13 +4,13 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.33.1",
     "@typescript-eslint/parser": "^8.33.1",
     "eslint": "^9.28.0",
     "typescript": "^5.8.3",
-    "typescript-eslint-extended-switch-exhaustiveness": "file:.."
+    "typescript-eslint-extended-switch-exhaustiveness": "^0.0.1"
   }
 }

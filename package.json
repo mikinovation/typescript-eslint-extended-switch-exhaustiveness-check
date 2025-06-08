@@ -1,6 +1,6 @@
 {
   "name": "typescript-eslint-extended-switch-exhaustiveness",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint plugin that enforces 'throw new Error(`${value satisfies never} ...`)' in default cases for union types",
   "type": "module",
   "main": "dist/index.js",
@@ -23,12 +23,12 @@
     "url": "https://github.com/mikinovation/extend-switch-exhaustiveness-check/issues"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build && npm run test"
+    "prepublishOnly": "pnpm run build && pnpm run test"
   },
   "keywords": [
     "eslint",
@@ -50,6 +50,7 @@
     "@typescript-eslint/parser": "8.33.1",
     "@typescript-eslint/rule-tester": "8.33.1",
     "eslint": "9.28.0",
+    "tsup": "^8.5.0",
     "typescript": "5.8.3",
     "vitest": "3.2.2"
   },
