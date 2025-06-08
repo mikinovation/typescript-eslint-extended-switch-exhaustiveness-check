@@ -1,6 +1,6 @@
 {
   "name": "typescript-eslint-extended-switch-exhaustiveness",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint plugin that enforces 'throw new Error(`${value satisfies never} ...`)' in default cases for union types",
   "type": "module",
   "main": "dist/index.js",
