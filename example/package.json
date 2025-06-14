@@ -11,6 +11,6 @@
     "@typescript-eslint/parser": "^8.33.1",
     "eslint": "^9.28.0",
     "typescript": "^5.8.3",
-    "typescript-eslint-extended-switch-exhaustiveness": "^0.0.1"
+    "typescript-eslint-extended-switch-exhaustiveness": "^0.0.3"
   }
 }
