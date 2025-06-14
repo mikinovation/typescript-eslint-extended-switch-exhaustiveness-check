@@ -21,8 +21,8 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
       typescript-eslint-extended-switch-exhaustiveness:
-        specifier: ^0.0.1
-        version: 0.0.1(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)(typescript@5.8.3)
+        specifier: ^0.0.3
+        version: 0.0.3(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)(typescript@5.8.3)
 
 packages:
 
@@ -492,8 +492,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  typescript-eslint-extended-switch-exhaustiveness@0.0.1:
-    resolution: {integrity: sha512-50o6fG4WMpqI6fJKrWgxIHviwbnTgGrrWCbt1tc8hfewljQarvobh4fbMjbC8GWMweEuH0EZmLgEI8FchCq+SQ==}
+  typescript-eslint-extended-switch-exhaustiveness@0.0.3:
+    resolution: {integrity: sha512-kRmZMUwQPKfwPqm6/vuzRf9TGq6spoSqF8aIsqaAE6DhoTSuqKNDyZGV9Lw0J8xh+QJ+6h5t9/DfIqcfgxG51w==}
     peerDependencies:
       '@typescript-eslint/parser': ^8.0.0
       eslint: ^9.0.0
@@ -1001,7 +1001,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  typescript-eslint-extended-switch-exhaustiveness@0.0.1(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)(typescript@5.8.3):
+  typescript-eslint-extended-switch-exhaustiveness@0.0.3(@typescript-eslint/parser@8.33.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)(typescript@5.8.3):
     dependencies:
       '@typescript-eslint/parser': 8.33.1(eslint@9.28.0)(typescript@5.8.3)
       '@typescript-eslint/utils': 8.33.1(eslint@9.28.0)(typescript@5.8.3)
